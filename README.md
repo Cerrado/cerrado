@@ -4,10 +4,14 @@
 
 namespace WhatAreThose.Humans
 {
-  public class Hooman
+  public class Hooman : Entity
   {
   
-  
+    public String[] getCurrentWorkplace()
+    {
+      var result = [ "Foot Locker EMEA 👟", "Software Engineer", "Supply Chain" ];
+      return result;
+    }
   
   }
 }
