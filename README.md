@@ -27,12 +27,12 @@ namespace WhatAreThose.Humans
    
     public List<Skill> getNonRustySkills()
     {
-      var cSharp = new Skill{ rating: SkillRating.Expert, years: 5 };
-      var java = new Skill{ rating: SkillRating.Competent, years: 3 };
+      var cSharp     = new Skill{ rating: SkillRating.Expert, years: 5 };
+      var java       = new Skill{ rating: SkillRating.Competent, years: 3 };
       var azureCloud = new Skill{ rating: SkillRating.Competent, years: 2};
-      var devOps = new Skill{ rating: SkillRating.Competent, years: 2};
-      var webDev = new Skill{ rating: SkillRating.Proficient, years: 5}; // JavaScript, React, Angular, Nextjs
-      var python = new Skill{ rating: SkillRating.Beginner, years: 1};
+      var devOps     = new Skill{ rating: SkillRating.Competent, years: 2};
+      var webDev     = new Skill{ rating: SkillRating.Proficient, years: 5}; // JavaScript, React, Angular, Nextjs
+      var python     = new Skill{ rating: SkillRating.Beginner, years: 1};
       // ... more
       
       List<Skill> solidResult = new List<Skill>{ cSharp, java, azureCloud, devOps, webDev, python };
